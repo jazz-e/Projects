@@ -1,0 +1,5 @@
+{
+  "appId": "com.bcit.visitorapp",
+  "appName": "sign-in-app",
+  "webDir": "dist"
+}
