@@ -21,8 +21,8 @@ function LoginForm() {
 
   return (
     <form onSubmit={handleLogin}>
-      <div className='flex flex-row gap-1'>
-        <label className='bg-blue-200 text-black w-30'>Username</label>
+      <div>
+        <label>Username</label>
         <input
           className='border-2 border-black w-60'
           type='text'
@@ -32,10 +32,9 @@ function LoginForm() {
         />
       </div>
 
-      <div className='flex flex-row gap-1'>
-        <label className='bg-blue-200 text-black w-30'>Password</label>
+      <div>
+        <label>Password</label>
         <input
-          className='border-2 border-black w-60'
           type='password'
           value={password}
           onChange={(e) => setPassword(e.target.value)}
